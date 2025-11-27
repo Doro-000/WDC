@@ -2,29 +2,6 @@
 
 The Python code in the `wdc.py` file provides a library for querying a datacube, a multidimensional dataset, through HTTP connections to a database server. This README provides an overview of the code's functionality, usage, operations, error handling, and additional notes.
 
-# File Structure
-
-- wdc
-  - src
-    - \_\_init\_\_.py
-    - DatabaseConnection.py
-    - Datacube.py
-    - exampleQueries.py
-    - QueryBuilder.py
-    - helpers
-      - \_\_init\_\_.py
-      - constants.py
-      - expressionComposers.py
-      - types.py
-      - utils.py
-  - test
-    - test_DatabaseConnection.py
-    - test_Datacube.py
-- requirements.txt
-- .gitignore
-- demo.ipynb
-- README.md
-
 # DatabaseConnection Class
 
 Handles HTTP connections to a database server for sending queries.
